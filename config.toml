@@ -9,7 +9,7 @@ theme = "spectral"
 [params]
 fancyTitle = "Mellit BV" # title for frontpage, may include image
 copyright = "Melvin Hulsmans"
-description = 'A company by Melvin Hulmans'
+description = 'We build your solutions'
 #startbuttonText = "Activate"
 #startbuttonLink = "#"git
 body_is_markdown = true
@@ -34,119 +34,104 @@ tag = "tags"
 category = "categories"
 series = "series"
 
-[params.one]
-enable = true
-title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
-body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
-'''
-
-[[params.one.icon]]
-icon = "fa-gem"
-style = "1"
-label = "Lorem"
-
-[[params.one.icon]]
-icon = "fa-heart"
-style = "2"
-label = "Ipsum"
-
-[[params.one.icon]]
-icon = "solid fa-code"
-style = "3"
-label = "Dolor"
+#[params.one]
+#enable = true
+#title = 'Committed to creating a lasting solution'
+#body = '''
+#Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend
+#fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+#'''
+#
+#[[params.one.icon]]
+#icon = "fa-gem"
+#style = "1"
+#label = "Lorem"
+#
+#[[params.one.icon]]
+#icon = "fa-heart"
+#style = "2"
+#label = "Ipsum"
+#
+#[[params.one.icon]]
+#icon = "solid fa-code"
+#style = "3"
+#label = "Dolor"
 
 [params.two]
 enable = true
 
-[[params.two.section]]
-img = "img/pic01.jpg"
-img_alt = "blurry background: white/grey"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[[params.two.section]]
-img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
 [params.three]
 enable = true
-title = 'Accumsan mus tortor nunc aliquet'
+title = 'Solving your problems with the right mindset'
 body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+There is a difference between doing a job and doing a good job.
+At Mellit BV we try to keep the following in mind when helping you achieve your goals.
 '''
 
 [[params.three.feature]]
-icon = "fa-paper-plane"
-title = "Arcu accumsan"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "solid fa-laptop"
-title = "Ac Augue Eget"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
 icon = "solid fa-code"
-title = "Foo bar"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Clean code"
+body = "Investing time now prevents losing time in the future. The same goes for maintaining code."
 
 [[params.three.feature]]
-icon = "solid fa-headphones-alt"
-title = "Baz kram"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+icon = "solid fa-magnifying-glass"
+title = "Being critical"
+body = "Critical reflection and providing constructive feedback is important to keep the code quality optimal and make everyone improve."
 
 [[params.three.feature]]
 icon = "fa-heart"
-title = "Some latin text"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Contributing to a healthy team atmophere"
+body = "Even the most experienced developer will not be able to win from a well-oiled team. Hence teamwork is a vital part of building applications."
 
 [[params.three.feature]]
 icon = "fa-flag"
-title = "Nothing important"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Setting goals"
+body = "IT is always evolving, hence we need to do the same. Only by looking ahead can we prevent getting stuck."
+
+[[params.three.feature]]
+icon = "solid fa-bug"
+title = "Problem solving"
+body = "Making mistakes is human, however not learning from them is lazyness. Improving bug detection and knowledge sharing can save a lot of time and frustration."
+
+[[params.three.feature]]
+icon = "fa-lemon"
+title = "Positive mindset"
+body = "You're still reading these? This is all just padding. Fine something something lemonade, trying to make the best of a bad day does wonders for motivation."
+
 
 [params.cta]
 enable = true
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+title = "What can we mean for you?"
+body = ""
 
 [[params.cta.link]]
-href = "#"
-text = "Activate"
+href = "cv"
+text = "Our talents"
 special = true
 
 [[params.cta.link]]
-href = "#"
-text = "Learn More"
+href = "posts"
+text = "Blogs"
 special = false
 
 [params.contact]
 enable = true
 title = "Contact"
-body = "Leave us a message."
-phone = "+49 (0) 030 000 000"
-address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
-subject = "New Submission!"
+body = "Feel free to leave a message"
+phone = ""
+address = ""
+email = "contact.site@mellit.dev"
+subject = "New Submission from your website."
 formspree_form_id = "example_invalid"
 
 [params.social]
-twitter = ""
-mastodon = ""
-github = ""
-facebook = ""
-youtube = ""
-instagram = ""
-dribble = ""
+#twitter = ""
+#mastodon = ""
+github = "MelvinHuls"
+#facebook = ""
+#youtube = ""
+#instagram = ""
+#dribble = ""
 
 # language specific options
 

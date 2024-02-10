@@ -34,3 +34,8 @@ This blogpost is however incomplete and after completing it you should follow: [
 ## Extra notes
 
 Top level headers are ignored. A &lt;h1&gt;&lt;/h1&gt; tag in html and a # in markdown will be ignored. ## and &lt;h2&gt;&lt;/h2&gt; work.
+
+
+## Example
+
+If you need a more hands-on example. The code for this site can be found in my GitHub repo: [link](https://github.com/MelvinHuls/mellit-bv)
