@@ -2,7 +2,7 @@
 title: Setup Mellit.dev
 linkTitle: setupSite
 description: A description of how this site was setup.
-date: 2024-02-11T01:04:00+01:00
+date: 2024-02-11T14:30:00+01:00
 summary: Want to find out how this site was set up? Read this post to find out.
 ---
 
@@ -22,6 +22,7 @@ Also: it needs to be in a list, even if you have 1 file.
 
 For specific files they should not be edited directly in the themes dir. But you can add files to your project and they have priority. See [link](https://gohugobrasil.netlify.app/themes/customizing/)
 
+The theme uses [fontawesome](https://fontawesome.com/icons), so you can add/override icons using these.
 
 ## Domain setup
 For hosting github pages is being used.
