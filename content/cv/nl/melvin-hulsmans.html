@@ -49,7 +49,21 @@ summary: De Curriculum Vitae van Melvin Hulsmans, nederlandse versie.
         <td>
             <ul>
                 <li>Java (Standard Edition and Enterprise Edition)
-                <li>JSF/JSP</li>
+                <li>Angular
+                    <ul>
+                        <li>HTML</li>
+                        <li>(S)CSS</li>
+                        <li>Typescript</li>
+                        <li>Javascript</li>
+                        <li>Npm</li>
+                        <li>PrimeNG</li>
+                    </ul>
+                </li>
+                <li>Spring</li>
+                <li>Hibernate</li>
+                <li>PostgreSQL</li>
+                <li>GraphQL</li>
+                <li>SQL</li>
                 <li>Testing
                     <ul>
                         <li>Junit</li>
@@ -59,25 +73,16 @@ summary: De Curriculum Vitae van Melvin Hulsmans, nederlandse versie.
                         <li>Integration tests</li>
                     </ul>
                 </li>
-                <li>Spring</li>
-                <li>Hibernate</li>
-                <li>PostgreSQL</li>
-                <li>GraphQL</li>
-                <li>SQL</li>
-                <li>Angular
-                    <ul>
-                        <li>HTML</li>
-                        <li>(S)CSS</li>
-                        <li>Typescript</li>
-                        <li>Javascript</li>
-                        <li>Npm</li>
-                    </ul>
-                </li>
                 <li>Maven</li>
-                <li>Openshift</li>
                 <li>Kubernetes</li>
+                <li>Docker</li>
                 <li>Golang</li>
-                <li>Github workflows</li>
+                <li>GitHub-workflows</li>
+                <li>ArgoCD</li>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+                <li>Operator SDK</li>
+                <li>AWS SDK</li>
                 <li>Atlassian Tools
                     <ul>
                         <li>Jira</li>
@@ -95,7 +100,11 @@ summary: De Curriculum Vitae van Melvin Hulsmans, nederlandse versie.
                 </li>
                 <li>Intellij</li>
                 <li>Git</li>
-                <li>Primefaces/PrimeNG</li>
+                <li>JSF/JSP
+                    <ul>
+                        <li>Primefaces</li>
+                    </ul>
+                </li>
             </ul>
         </td>
     </tr>
@@ -132,6 +141,138 @@ summary: De Curriculum Vitae van Melvin Hulsmans, nederlandse versie.
 
 
 <h2>Ervaring</h2>
+
+<button type="button" class="collapsible">Trendminer SaaS (2023-Nu)</button>
+<div class="content" style="display: none">
+    <table class="left-header">
+    <tr>
+        <th>Periode</th>
+        <td>01/2023 – Nu</td>
+    </tr>
+    <tr>
+        <th>Klant & sector</th>
+        <td>Trendminer</td>
+    </tr>
+    <tr>
+        <th>Rol / Functie</th>
+        <td>Devops engineer</td>
+    </tr>
+    <tr>
+        <th>Project</th>
+        <td>SaaS</td>
+    </tr>
+    <tr>
+        <th>Beschrijving</th>
+        <td>
+            De applicatie draaide bij alle klanten op een on-premise server of op een self-hosted Azure cloud environment.<br/>
+            Om fatsoenlijk te kunnen groeien in de toekomst, was het nodig dat we onze applicatie konden aanbieden op AWS.<br/>
+            Dit team was in leven geroepen om dit een werkelijkheid te maken.<br/><br/>
+
+            Een extra complexiteit was dat de bestaande on-premise installaties nog altijd moesten blijven werken met de nieuwe versies.
+        </td>
+    </tr>
+    <tr>
+        <th>Mijn bijdrage</th>
+        <td>
+            Schrijven van operators in golang die de Kubernetes cluster correct configureren adv custom resources.<br/>
+            De operators moeten eventual consistency afdwingen dmv zijn reconsile loop en webhooks.<br/><br/>
+
+            Configuratie van de Codepipeline die via GitHub & ArgoCD onze klanten gaat updaten.<br/>
+            Bijvoorbeeld voor monitoring & alerting dmv Prometheus en Grafana. Hiervoor moest gezorgd worden dat de scraping aanstond, datasources geconfigureerd waren en dat onze dashboards via GitHub geupdate worden.<br>
+            Hierdoor moeten we niets meer manueel configureren voor nieuwe klanten en zullen alle updates ook gepropageerd worden.<br/><br/>
+
+            Aanpassen van de configuratie website. Deze moet zowel de on-prem als de SaaS configuratie ondersteunen, dit dmv feature flags.<br><br/>
+
+            En nog een hoop andere kleine taakjes, zoals: Cloudwatch log formatting, Custom prometheus metrics, ...<br/><br/>
+        </td>
+    </tr>
+    <tr>
+        <th>Technologie, tools & methodologie</th>
+        <td>Technologie:
+            <ul>
+                <li>Java, Angular, Golang</li>
+                <li>GitHub-workflows, ArgoCD</li>
+                <li>Kubernetes, Docker</li>
+                <li>Prometheus, Grafana</li>
+                <li>Slack</li>
+                <li>Operator SDK, AWS SDK</li>
+            </ul>
+
+            Tools:
+            <ul>
+                <li>AWS, GitHub, Jira, Intellij, CLI tools (bv. k9s)</li>
+            </ul>
+
+            Methodologie:
+            <ul>
+                <li>Agile (Scrum)</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+</div>
+
+<br/>
+<br/>
+
+<button type="button" class="collapsible">Trendminer RDE (2022-2023)</button>
+<div class="content" style="display: none">
+    <table class="left-header">
+    <tr>
+        <th>Periode</th>
+        <td>08/2022 – 01/2023</td>
+    </tr>
+    <tr>
+        <th>Klant & sector</th>
+        <td>Trendminer</td>
+    </tr>
+    <tr>
+        <th>Rol / Functie</th>
+        <td>Devops engineer</td>
+    </tr>
+    <tr>
+        <th>Project</th>
+        <td>R&D Efficiëncy</td>
+    </tr>
+    <tr>
+        <th>Beschrijving</th>
+        <td>
+            Binnen R&D waren er een hoop dingen die nooit op de sprint geraakte van teams, omdat ze geen directe impact op de applicatie hadden.<br/>
+            Omdat de impact wel voelbaar begon te worden was er een team opgericht om deze problemen op te lossen.<br/><br/>
+            Het ging voornamelijk over het verbeteren van de release cycle.
+        </td>
+    </tr>
+    <tr>
+        <th>Mijn bijdrage</th>
+        <td>
+            Kritisch meedenken over mogelijke oplossingen en deze implementeren.
+        </td>
+    </tr>
+    <tr>
+        <th>Technologie, tools & methodologie</th>
+        <td>Technologie:
+            <ul>
+                <li>Java, Angular</li>
+                <li>GitHub-workflows, ArgoCD, Bamboo</li>
+                <li>Kubernetes, Docker</li>
+            </ul>
+
+            Tools:
+            <ul>
+                <li>GitHub, Jira, Intellij, CLI tools (bv. k9s)</li>
+            </ul>
+
+            Methodologie:
+            <ul>
+                <li>Agile (Scrum)</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+</div>
+
+<br/>
+<br/>
 
 <button type="button" class="collapsible">Smals EYouth (2018-2022)</button>
 <div class="content" style="display: none">

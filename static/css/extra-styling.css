@@ -10,9 +10,5 @@ table.left-header th {
 
 button.active.collapsible  {
   background-color: #afafaf;
-  color: white
-}
-
-button.active.collapsible:hover  {
-  color: black
+  box-shadow: inset 0 0 0 2px #8f8f8f;
 }
