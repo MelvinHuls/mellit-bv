@@ -80,7 +80,7 @@ body = "Critical reflection and providing constructive feedback is important to 
 
 [[params.three.feature]]
 icon = "fa-heart"
-title = "Contributing to a healthy team atmophere"
+title = "Healthy atmosphere advocate"
 body = "Even the most experienced developer will not be able to win from a well-oiled team. Hence teamwork is a vital part of building applications."
 
 [[params.three.feature]]
@@ -101,7 +101,7 @@ body = "You're still reading these? This is all just padding. Fine something som
 
 [params.cta]
 enable = true
-title = "What can we mean for you?"
+title = "How can we help you improve?"
 body = ""
 
 [[params.cta.link]]
