@@ -9,12 +9,12 @@ theme = "spectral"
 [params]
 fancyTitle = "Mellit BV" # title for frontpage, may include image
 copyright = "Melvin Hulsmans"
-description = 'We build your solutions'
+description = "We build your solutions"
 #startbuttonText = "Activate"
 #startbuttonLink = "#"git
 body_is_markdown = true
-#custom_css = "foo.css"
-#custom_sass = "bar.scss"
+custom_css = ["css/extra-styling.css"]
+#custom_sass = "assets/scss/extra-styling.scss"
 #images = ["path_to_social_image_for_link_previews.jpg"]
 
 [[params.menu.main]]

@@ -1,0 +1,14 @@
+{{ $css := resources.Get "css/main.css" | minify | fingerprint "sha512" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+{{ $noscript_css := resources.Get "css/noscript.css" | minify | fingerprint "sha512" }}
+<noscript><link rel="stylesheet" href="{{ $noscript_css.RelPermalink }}" integrity="{{ $noscript_css.Data.Integrity }}"></noscript>
+
+{{ range .Site.Params.custom_css -}}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+{{ with .Site.Params.custom_sass }}
+{{ $custom_sass := resources.Get . | resources.ToCSS | minify | fingerprint "sha512" }}
+<link rel="stylesheet" href="{{ $custom_sass.RelPermalink }}" integrity="{{ $custom_sass.Data.Integrity }}">
+{{ end }}

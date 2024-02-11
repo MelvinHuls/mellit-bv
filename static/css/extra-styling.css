@@ -1,0 +1,18 @@
+table.left-header th {
+    border-right: 0.1rem solid lightgray;
+}
+
+.collapsible {
+  background-color: #dfdfdf;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.active.collapsible  {
+  background-color: #afafaf;
+  color: white
+}
+
+button.active.collapsible:hover  {
+  color: black
+}
