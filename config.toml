@@ -114,15 +114,15 @@ href = "posts"
 text = "Blogs"
 special = false
 
-[params.contact]
-enable = true
-title = "Contact"
-body = "Feel free to leave a message"
-phone = ""
-address = ""
-email = "contact.site@mellit.dev"
-subject = "New Submission from your website."
-formspree_form_id = "example_invalid"
+#[params.contact]
+#enable = true
+#title = "Contact"
+#body = "Feel free to leave a message"
+#phone = ""
+#address = ""
+#email = "contact.site@mellit.dev"
+#subject = "New Submission from your website."
+#formspree_form_id = "example_invalid"
 
 [params.social]
 #twitter = ""
