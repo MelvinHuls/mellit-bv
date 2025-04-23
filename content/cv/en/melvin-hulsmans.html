@@ -1,0 +1,537 @@
+---
+title: Melvin Hulsmans
+subtitle: Curriculum Vitae
+linkTitle: MelvinHulsmans
+date: 2025-04-23T14:30:00+01:00
+description: Curriculum Vitae Melvin Hulsmans
+summary: Curriculum Vitae of Melvin Hulsmans, english version.
+---
+
+<h2>Personal information</h2>
+
+<table class="left-header">
+    <tr>
+        <th>First name</th>
+        <td>Melvin</td>
+    </tr>
+    <tr>
+        <th>Last name</th>
+        <td>Hulsmans</td>
+    </tr>
+    <tr>
+        <th>Birthdate</th>
+        <td>17/04/1992</td>
+    </tr>
+    <tr>
+        <th>Place of residence</th>
+        <td>3200 Aarschot</td>
+    </tr>
+    <tr>
+        <th>E-mail</th>
+        <td>Melvin@mellit.dev</td>
+    </tr>
+    <tr>
+        <th>Highest diploma</th>
+        <td>Master in Civil Engineering: Computer Science; Human Computer Interaction</td>
+    </tr>
+</table>
+
+
+<h2>Relevant knowledge</h2>
+
+<table class="left-header">
+    <tr>
+        <th>Role</th>
+        <td>Software Engineer</td>
+    </tr>
+    <tr>
+        <th>Technologies & Tools</th>
+        <td>
+            <ul>
+                <li>Java (Standard Edition and Enterprise Edition)
+                <li>Angular
+                    <ul>
+                        <li>HTML</li>
+                        <li>(S)CSS</li>
+                        <li>Typescript</li>
+                        <li>Javascript</li>
+                        <li>Npm</li>
+                        <li>PrimeNG</li>
+                    </ul>
+                </li>
+                <li>Spring</li>
+                <li>Hibernate</li>
+                <li>PostgreSQL</li>
+                <li>GraphQL</li>
+                <li>SQL</li>
+                <li>Testing
+                    <ul>
+                        <li>Junit</li>
+                        <li>Mock testing</li>
+                        <li>Selenium</li>
+                        <li>Cypress</li>
+                        <li>Integration tests</li>
+                    </ul>
+                </li>
+                <li>Maven</li>
+                <li>Kubernetes</li>
+                <li>Docker</li>
+                <li>Golang</li>
+                <li>GitHub-workflows</li>
+                <li>ArgoCD</li>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+                <li>Operator SDK</li>
+                <li>AWS SDK</li>
+                <li>Atlassian Tools
+                    <ul>
+                        <li>Jira</li>
+                        <li>Crucible</li>
+                        <li>Confluence</li>
+                    </ul>
+                </li>
+                <li>SonarQube</li>
+                <li>REST
+                    <ul>
+                        <li>HATEOAS</li>
+                        <li>Json</li>
+                        <li>HTTP</li>
+                    </ul>
+                </li>
+                <li>Intellij</li>
+                <li>Git</li>
+                <li>JSF/JSP
+                    <ul>
+                        <li>Primefaces</li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>Methodologies</th>
+        <td>
+            <ul>
+                <li>Atlassian stack</li>
+                <li>Scrum</li>
+                <li>TDD</li>
+                <li>UML</li>
+                <li>Sequence diagrams</li>
+                <li>Pair programming</li>
+                <li>Kanban</li>
+                <li>CI/CD</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>Certificates</th>
+        <td>1Z0-808 Java SE 8 Programmer I</td>
+    </tr>
+    <tr>
+        <th>Languages</th>
+        <td>
+            <ul>
+                <li>Nederlands: mother language</li>
+                <li>Engels: fluent</li>
+                <li>Frans: notions</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<h2>Experience</h2>
+
+<button type="button" class="collapsible">Trendminer SaaS (2023-now)</button>
+<div class="content" style="display: none">
+    <table class="left-header">
+        <tr>
+            <th>Period</th>
+            <td>01/2023 – Now</td>
+        </tr>
+        <tr>
+            <th>Client & sector</th>
+            <td>Trendminer</td>
+        </tr>
+        <tr>
+            <th>Role / Position</th>
+            <td>DevOps Engineer</td>
+        </tr>
+        <tr>
+            <th>Project</th>
+            <td>SaaS</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>
+                The Trendminer-application was deployed either on-premise or in a self-hosted Azure cloud environment for each customer.<br/>
+                The decision was made to move to SaaS to reduce the complexity of setting up new customers and to facilitate the growing demand.<br/>
+                This team was established to make that happen.<br/><br/>
+
+                An added complexity was that the existing on-premise installations would need to stay supported. That means that every update needs to work on both systems.
+            </td>
+        </tr>
+        <tr>
+            <th>My contribution</th>
+            <td>
+                Writing operators in Golang to correctly configure the Kubernetes cluster based on custom resources.<br/>
+                The operators enforce eventual consistency using their reconcile loop and webhooks.<br/><br/>
+
+                Setting up the CodePipeline that updates our customers via GitHub & ArgoCD.<br/>
+                For example, for monitoring & alerting via Prometheus and Grafana. This involved ensuring scraping was enabled, data sources were configured, and our dashboards were updated via GitHub.<br>
+                As a result, we no longer need to manually configure anything for new customers, and all updates are automatically propagated.<br/><br/>
+
+                Adjusting the application, mainly the part used by admins for configuration. It must support both on-prem and SaaS setups using feature flags.<br/><br/>
+
+                And many other tasks, such as: CloudWatch log formatting, updating GitHub workflows, building releases, resolving environment issues on alerts, knowledge sharing, etc.<br/><br/>
+            </td>
+        </tr>
+        <tr>
+            <th>Technologies, tools & methodology</th>
+            <td>Technologies:
+                <ul>
+                    <li>Java, Angular, Golang</li>
+                    <li>GitHub workflows, ArgoCD</li>
+                    <li>Kubernetes, Docker</li>
+                    <li>Prometheus, Grafana</li>
+                    <li>Slack</li>
+                    <li>Operator SDK, AWS SDK</li>
+                </ul>
+
+                Tools:
+                <ul>
+                    <li>AWS, GitHub, Jira, IntelliJ, CLI tools (e.g. k9s)</li>
+                </ul>
+
+                Methodology:
+                <ul>
+                    <li>Agile (Scrum)</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<br/>
+<br/>
+
+<button type="button" class="collapsible">Trendminer RDE (2022–2023)</button>
+<div class="content" style="display: none">
+    <table class="left-header">
+        <tr>
+            <th>Period</th>
+            <td>08/2022 – 01/2023</td>
+        </tr>
+        <tr>
+            <th>Client & sector</th>
+            <td>Trendminer</td>
+        </tr>
+        <tr>
+            <th>Role / Position</th>
+            <td>DevOps Engineer</td>
+        </tr>
+        <tr>
+            <th>Project</th>
+            <td>R&D Efficiency</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>
+                Within R&D, there were many tasks that never made it into a team’s sprint because they had no direct impact on the application.<br/>
+                Since their impact was becoming noticeable, a team was created to solve these problems.<br/><br/>
+                The focus was mainly on improving the release cycle.
+            </td>
+        </tr>
+        <tr>
+            <th>My contribution</th>
+            <td>
+                Critically thinking about possible solutions and implementing them.
+            </td>
+        </tr>
+        <tr>
+            <th>Technologies, tools & methodology</th>
+            <td>Technologies:
+                <ul>
+                    <li>Java, Angular</li>
+                    <li>GitHub workflows, ArgoCD, Bamboo</li>
+                    <li>Kubernetes, Docker</li>
+                </ul>
+
+                Tools:
+                <ul>
+                    <li>GitHub, Jira, IntelliJ, CLI tools (e.g. k9s)</li>
+                </ul>
+
+                Methodology:
+                <ul>
+                    <li>Agile (Scrum)</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<br/>
+<br/>
+
+<button type="button" class="collapsible">Smals EYouth (2018–2022)</button>
+<div class="content" style="display: none">
+    <table class="left-header">
+        <tr>
+            <th>Period</th>
+            <td>08/2018 – 08/2022</td>
+        </tr>
+        <tr>
+            <th>Client & sector</th>
+            <td>Agency for Youth Welfare on behalf of Smals (Inetum-Realdolmen consultant)</td>
+        </tr>
+        <tr>
+            <th>Role / Position</th>
+            <td>Full Stack Developer</td>
+        </tr>
+        <tr>
+            <th>Project</th>
+            <td>EYouth</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>
+                EYouth is a platform for centralizing data and services for various youth welfare applications, including INSISTO (see below), MDB, and Domino.<br/>
+                The platform is accessible via REST calls.<br/><br/>
+
+                A frontend part was later added. Each of the microservices within EYouth was designed to reduce the complexity of INSISTO.<br/>
+                Each application (“1G1P”, “COBE”, “Crisis”, “Jeugdhulp”, “Systeembeheer”, “Zorggarantie” en “PAB Wachtbeheer”) represents a flow that was either previously part of INSISTO or was newly required due to regulation changes.<br/>
+                All frontend applications are standalone but share a library of common components and connect to EYouth.
+            </td>
+        </tr>
+        <tr>
+            <th>My contribution</th>
+            <td>Meetings
+                <ul>
+                    <li>Issue management via Jira & Crucible</li>
+                    <li>Standups</li>
+                    <li>Sprint planning</li>
+                    <li>Estimation meetings</li>
+                    <li>Retrospective</li>
+                    <li>Customer demo after each sprint</li>
+                    <li>Knowledge-sharing meetings</li>
+                </ul>
+                Development of REST microservices using CQRS and Event Sourcing (including GraphQL)<br/><br/>
+
+                Unit testing / Integration testing / Selenium testing / Frontend testing (Cypress, etc.)<br/><br/>
+
+                Bug fixing<br/><br/>
+
+                Deployment to OpenShift (+ Jenkins)<br/><br/>
+
+                Code reviews using Crucible<br/><br/>
+
+                Development of Angular frontend applications<br/><br/>
+
+                Setting up an Angular library with shared components.<br/><br/>
+
+                Customizing existing PrimeNG components or creating new ones per client requirements.
+            </td>
+        </tr>
+        <tr>
+            <th>Technologies, tools & methodology</th>
+            <td>Technologies:
+                <ul>
+                    <li>Java 11, Spring 5, Hibernate, REST, GraphQL, (Postgre)SQL, Angular 12 (TypeScript), HTML, SCSS</li>
+                    <li>Junit, Mockito, EasyMock, Cypress, Selenium</li>
+                </ul>
+
+                Tools:
+                <ul>
+                    <li>Docker, Maven, GitLab, Jira, Crucible, IntelliJ, Jenkins, Oracle SQL Developer, Atlassian Confluence/Jira/Crucible, OpenShift, KeyCloak</li>
+                </ul>
+
+                Methodology:
+                <ul>
+                    <li>Agile (Scrum)</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<br/>
+<br/>
+
+<button type="button" class="collapsible">Smals INSISTO (2017–2022)</button>
+<div class="content" style="display: none">
+    <table class="left-header">
+        <tr>
+            <th>Period</th>
+            <td>10/2017 – 08/2022</td>
+        </tr>
+        <tr>
+            <th>Client & sector</th>
+            <td>Agency for Youth Welfare on behalf of Smals (Inetum-Realdolmen consultant)</td>
+        </tr>
+        <tr>
+            <th>Role / Position</th>
+            <td>Full Stack Developer</td>
+        </tr>
+        <tr>
+            <th>Project</th>
+            <td>INSISTO: InformaticaSysteem Intersectorale Toegangspoort</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>
+                INSISTO is an application used by the Youth Welfare Agency for creating and managing cases for youth requiring special care.<br/><br/>
+
+                The situation or condition of the youth can be indicated, after which an appropriate facility and budget can be selected.<br/>
+                The application has a certain complexity, not due to its size but due to the sensitive nature of the information. There are a lot of roles that can only do a very specific set of actions. The patient file has a lot of different statuses depending on what stage it is in. And depending on different restrictions data/items that may be linked to a case.
+            </td>
+        </tr>
+        <tr>
+            <th>My contribution</th>
+            <td>
+                Meetings: Same as EYouth<br/><br/>
+
+                Frontend and backend development<br/><br/>
+
+                Bug fixing<br/><br/>
+
+                Writing and maintaining unit, integration & Selenium tests<br/><br/>
+            </td>
+        </tr>
+        <tr>
+            <th>Technologies, tools & methodology</th>
+            <td>Technologies:
+                <ul>
+                    <li>JSF, Java, JEE, XHTML, CSS, PrimeFaces, PostgreSQL, JavaScript</li>
+                </ul>
+
+                Tools:
+                <ul>
+                    <li>Maven, GitLab, Jira, Crucible, IntelliJ, JBoss, Oracle, SQL Developer, Jenkins</li>
+                </ul>
+
+                Methodology:
+                <ul>
+                    <li>Agile (Scrum)</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<br/>
+<br/>
+
+<button type="button" class="collapsible">Smals SAA (2017)</button>
+<div class="content" style="display: none">
+    <table class="left-header">
+        <tr>
+            <th>Period</th>
+            <td>04/2017 – 08/2017</td>
+        </tr>
+        <tr>
+            <th>Client & sector</th>
+            <td>Smals (Inetum-Realdolmen consultant)</td>
+        </tr>
+        <tr>
+            <th>Role / Position</th>
+            <td>Full Stack Developer</td>
+        </tr>
+        <tr>
+            <th>Project</th>
+            <td>SAA</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>
+                SAA is an application for the registration of medical companies that wish to sell medicine in Belgium. It also enables querying and enriching the data of the company and its facilities.
+            </td>
+        </tr>
+        <tr>
+            <th>My contribution</th>
+            <td>
+                Meetings: Same as EYouth<br/><br/>
+
+                Frontend and backend development<br/><br/>
+
+                Bug fixing<br/><br/>
+
+                Writing and maintaining unit, integration & Selenium tests<br/><br/>
+            </td>
+        </tr>
+        <tr>
+            <th>Technologies, tools & methodology</th>
+            <td>Technologies:
+                <ul>
+                    <li>JSF, Java, JEE, Spring</li>
+                </ul>
+
+                Tools:
+                <ul>
+                    <li>Docker, Maven, GitLab, Jira, Crucible, IntelliJ, Jenkins</li>
+                </ul>
+
+                Methodology:
+                <ul>
+                    <li>Agile (Scrum)</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<br/>
+<br/>
+
+<h2>Academische opleidingen</h2>
+
+<table>
+    <tr>
+        <th>Period</th>
+        <th>Type</th>
+        <th>School</th>
+        <th>Degree</th>
+    </tr>
+    <tr>
+        <td>2013-2016</td>
+        <td>University</td>
+        <td>KULeuven</td>
+        <td>Master in Civil Engineering: Computer Science; Human Computer Interaction</td>
+    </tr>
+    <tr>
+        <td>2012</td>
+        <td>University</td>
+        <td>The University of Manchester</td>
+        <td>Summer school</td>
+    </tr>
+    <tr>
+        <td>2010-2013</td>
+        <td>University</td>
+        <td>UHasselt</td>
+        <td>Bachelor in Informatica</td>
+    </tr>
+    <tr>
+        <td>2006-2010</td>
+        <td>High school</td>
+        <td>Don Bosco Helchteren</td>
+        <td>Industrial Science</td>
+    </tr>
+</table>
+
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+
